@@ -41,3 +41,7 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Learning materials (not for version control)
+*.md
+!README.md

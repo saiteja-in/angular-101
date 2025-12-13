@@ -2,6 +2,18 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.3.
 
+## 🎓 Learning Angular?
+
+**New to Angular?** Check out these comprehensive learning guides:
+
+- 📚 **[LEARNING_PATH.md](./LEARNING_PATH.md)** - Start here! Your complete learning roadmap
+- 📖 **[ANGULAR_LEARNING_GUIDE.md](./ANGULAR_LEARNING_GUIDE.md)** - Complete guide covering all Angular concepts
+- 🛠️ **[PRACTICAL_EXERCISES.md](./PRACTICAL_EXERCISES.md)** - Hands-on exercises with step-by-step instructions
+- ⚡ **[QUICK_REFERENCE.md](./QUICK_REFERENCE.md)** - Cheat sheet for quick lookups
+- 📁 **[PROJECT_STRUCTURE.md](./PROJECT_STRUCTURE.md)** - Detailed explanation of your project files
+
+**Recommended**: Start with [LEARNING_PATH.md](./LEARNING_PATH.md) to get your learning journey organized!
+
 ## Development server
 
 To start a local development server, run:
