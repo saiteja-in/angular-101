@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TodoComponent } from './todo.component';
+import { WelcomeComponent } from './welcome';
+import { CounterComponent } from './counter';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TodoComponent],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  imports: [RouterOutlet,CounterComponent],
+  templateUrl: './app.html'
 })
 
 // @Component({
@@ -16,4 +17,5 @@ import { TodoComponent } from './todo.component';
 
 export class App {
   protected readonly title = signal('wishlist');
+  userName = signal('Angular Learner');
 }

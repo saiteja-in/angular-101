@@ -1,22 +1,17 @@
-import { Component } from "@angular/core";
+import { Component, input } from "@angular/core";
 
 
 @Component({
   selector: 'app-welcome',
   standalone: true,  // Required for modern Angular standalone components
-  template: `
-  <div class="welcome">
-    <h2>Welcome to Angular!</h2>
-    <p>This is your first component.</p>
-  </div>
-`,
-  styles: [`
-    .welcome {
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-  `]
+  templateUrl:  './welcome.component.html'
 })
 
-export class WelcomeComponent{}
+export class WelcomeComponent{
+  name = input.required<string>()
+  message = input<string>("welcome to den")
+
+  onButtonClick(){
+    alert(`hello ${this.name()}`)
+  }
+}
