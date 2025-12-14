@@ -1,14 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { WelcomeComponent } from './welcome';
-import { CounterComponent } from './counter';
-import { GreetingComponent } from './greeting';
-import { CustomButtonComponent } from './button';
-import { ItemsComponent } from './fetchItems';
+import { TodoComponent } from './todo.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TodoComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
