@@ -6,8 +6,7 @@ import { TodoService, FilterType } from './todo.service';
   selector: 'app-todo',
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './todo.component.html',
-  styleUrl: './todo.component.css'
+  templateUrl: './todo.component.html'
 })
 export class TodoComponent {
   todoService = inject(TodoService);
